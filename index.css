@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding:0;
+}
+nav {
+    background-color:  #000000;
+    color: white;
+    list-style: none;   /* 移除項目符號 */
+    margin: auto;
+    right: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+
+}
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    display: block; /* 讓 <a> 填滿 <li> */
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;  /* 移除超連結底線 */
+}
+nav li:hover {
+    background-color: rgb(115, 115, 115);
+}
+.flex-nav {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 0;   /* 移除 <li> 之間的空隙 */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    display: inline;
+}
+a.active {
+    background-color: rgb(55, 55, 55);
+}
+table {
+    text-align:center;
+    width: 75%;
+    margin: auto;
+    padding-top: 50px;
+    table-layout: fixed;
+    
+}
+footer {
+    background-color:  #000000;
+    color: white;
+    margin: auto;
+    width: 100%;
+    font-size: large;
+}
+.changeColer:hover {
+    background-color:  #000000;
+    color: white;
+}
+.banner {
+    width: 100%;
+    /* border-radius: 5%; */
+    border-radius: 20px;
+}
+.banner:hover {
+    opacity: 0.5;
+}
+.cirle {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+.cirle:hover {
+    opacity: 0.8;
+    rotate: 2deg;
+}
+.plusHeight {
+    height: 400px;
+}
